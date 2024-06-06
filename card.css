@@ -1,0 +1,90 @@
+/* CSS Document */
+@font-face{
+	font-family: Figtree-Medium;
+	src: url("assets/fonts/static/Figtree-Medium.ttf");
+}
+@font-face {
+	font-family: Figtree-ExtraBold;
+	src: url("assets/fonts/static/Figtree-ExtraBold.ttf");
+}
+
+body{
+	background-color: hsl(47, 88%, 63%);
+	font-family: Figtree-Medium;
+	font-size: 16px;
+	min-height: 100vh;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 940px;
+	width: 1440px;
+}
+
+.card{
+	background-color: hsl(0, 0%, 100%);
+	width: 380px;
+	height: 520px;
+	border-radius: 20px;
+	box-shadow: 8px 8px 0px;
+	border: solid black 1px;
+
+}
+
+.card .img{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.card .img img{
+	border-radius: 10px;
+}
+
+.card .lear{
+	background-color: hsl(47, 88%, 63%);
+	padding: 6px 12px 6px 12px;
+	border-radius: 5px;
+	font-family: Figtree-ExtraBold;
+	position: relative;
+	top: 25px;
+	font-size: 14px;
+}
+
+.lear, .date , .caption, h1, .user{
+	margin-left: 23px;
+}
+
+.card .date{
+	font-size: 14px;
+	margin-top: 45px;
+}
+
+.card h1{
+	font-size: 1.46em;
+	font-family: Figtree-ExtraBold;
+}
+
+.card .caption{
+	color: hsl(0, 0%, 50%);
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+.card .user{
+	display: flex;
+	align-items: flex-start;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.card .user .name{
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+    bottom: 5px;
+	margin-left: 15px;
+}
+
+.card .user img{
+	width: 33px;
+	float: left;
+}
